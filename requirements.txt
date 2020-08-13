@@ -1,0 +1,9 @@
+black==19.10b0
+bokeh~=2.1
+flake8~=3.8
+mypy
+pylint~=2.5
+pytest~=6.0
+pytest-cov~=2.10
+python-dotenv~=0.14
+requests~=2.24

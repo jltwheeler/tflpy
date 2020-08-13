@@ -1,0 +1,12 @@
+**/__pycache__/
+.pytest_cache/
+.coverage
+coverage.xml
+/htmlcov
+.vscode/
+.env
+venv/
+.mypy_cache/
+.dmypy.json
+dmypy.json
+output.html
