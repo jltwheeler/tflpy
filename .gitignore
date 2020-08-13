@@ -9,4 +9,4 @@ venv/
 .mypy_cache/
 .dmypy.json
 dmypy.json
-output.html
+*.html

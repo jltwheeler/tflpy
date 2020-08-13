@@ -8,7 +8,7 @@ from bokeh.plotting import figure
 
 class BaseMap:
     def __init__(self):
-        output_file("geojson.html")
+        output_file("output.html")
 
         with open(
             os.path.join(
