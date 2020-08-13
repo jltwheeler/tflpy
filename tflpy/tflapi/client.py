@@ -11,7 +11,7 @@ from typing import Dict, List, Union
 
 import requests
 
-from tflapi.exceptions import TflApiError
+from tflpy.tflapi.exceptions import TflApiError
 
 
 class TflApi:

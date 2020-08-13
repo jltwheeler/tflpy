@@ -11,17 +11,20 @@ class BaseMap:
         output_file("geojson.html")
 
         with open(
-            os.path.join(os.getcwd(), "data/london_boroughs.json"), "rb"
-        ) as f:
-            data = json.load(f)
+            os.path.join(
+                os.path.dirname(__file__), "data", "london_boroughs.json"
+            ),
+            "rb",
+        ) as json_file:
+            data = json.load(json_file)
 
         geo_source = GeoJSONDataSource(geojson=json.dumps(data))
 
-        TOOLTIPS = [("Name", "@name")]
+        tooltips = [("Name", "@name")]
 
         p = figure(
             background_fill_color="lightgrey",
-            tooltips=TOOLTIPS,
+            tooltips=tooltips,
             match_aspect=True,
         )
         p.patches(

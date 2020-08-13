@@ -3,8 +3,8 @@ import os
 import pytest
 from dotenv import load_dotenv
 
-from tflapi import TflApi
-from tflapi.exceptions import TflApiError
+from tflpy import TflApi
+from tflpy.tflapi.exceptions import TflApiError
 
 load_dotenv()
 app_key = os.getenv("APP_KEY")

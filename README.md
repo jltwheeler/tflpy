@@ -4,14 +4,15 @@
 
 ## About The Project
 
-Lightweight Pythonic API wrapper for working with the [Transport for London
-(TfL) REST API](https://api.tfl.gov.uk/). The intent of this library is to
-make interacting with the API much easier for new Python users, extend the
+A Pythonic library for assisting people working with the Transport for London
+(TfL) REST API. It provides a lightweight API wrapper class and an interactive
+visualization component using the Bokeh library. The intent of this library is
+to make interacting with the API much easier for new Python users, extend the
 current capabilities of the API and provide sufficient error handling.
 
 ### Built With
 
-- [Python 3.7.5](https://www.python.org/downloads/release/python-375/)
+- [Python 3.7.x](https://www.python.org/downloads/release/python-375/)
 - [TfL Unified API](https://api.tfl.gov.uk/)
 
 <!-- GETTING STARTED -->
@@ -22,7 +23,7 @@ To get a local copy up and running on your machine, follow these simple steps.
 
 ### Prerequisites
 
-- Python 3.7.5. It is assumed that earlier versions of Python 3 will also work.
+- Python 3.7.x. It is assumed that earlier versions of Python 3 will also work.
 
 ### Installation (using Git)
 
@@ -30,18 +31,18 @@ To get a local copy up and running on your machine, follow these simple steps.
 
 ```sh
 # Using an SSH key
-git clone git@github.com:jltwheeler/tflapi.git
+git clone git@github.com:jltwheeler/tflpy.git
 ```
 
 ```sh
 # Using HTTPS
-git clone https://github.com/jltwheeler/tflapi.git
+git clone https://github.com/jltwheeler/tflpy.git
 ```
 
 2. Create a virtual environment (recommended)
 
 ```sh
-cd tflapi
+cd tflpy
 python3.7 -m venv venv
 ```
 
@@ -54,10 +55,10 @@ pip install -r requirements.txt
 
 ### Installation (PyPi)
 
-NB: This package is currently not on PyPi. This will be done in the future.
+NB: This package is currently not on PyPi.
 
 ```sh
-pip install tflapi
+pip install tflpy
 ```
 
 <!-- USAGE EXAMPLES -->
@@ -68,7 +69,7 @@ For local development, the platform can be accessed simply by running the
 following script in your console.
 
 ```python
-#Example code goes here
+# Example code goes here
 ```
 
 <!-- LICENSE -->
@@ -82,5 +83,4 @@ Distributed under the MIT License. See `LICENSE` for more information.
 ## Contact
 
 - [Josh Wheeler](mailto:jltwheeler@gmail.com)
-
-Project Link: [Link to issues page](https://github.com/jltwheeler/tflapi/issues)
+- [Link to issues page](https://github.com/jltwheeler/tflpy/issues)
