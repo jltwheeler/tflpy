@@ -1,2 +1,2 @@
 
-python -m pytest --cov=tflapi tests/ --cov-report xml
+python -m pytest --cov=tflpy tests/ --cov-report xml

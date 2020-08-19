@@ -1,5 +1,6 @@
 black==19.10b0
 bokeh~=2.1
+geojson~=2.5
 flake8~=3.8
 mypy
 pylint~=2.5

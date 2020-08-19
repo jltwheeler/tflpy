@@ -4,8 +4,8 @@
 
 ## About The Project
 
-A Pythonic library for assisting people working with the Transport for London
-(TfL) REST API. It provides a lightweight API wrapper class and an interactive
+A Pythonic library to help people work with the Transport for London (TfL)
+REST API. It provides a lightweight API wrapper class and an interactive
 visualization component using the Bokeh library. The intent of this library is
 to make interacting with the API much easier for new Python users, extend the
 current capabilities of the API and provide sufficient error handling.
@@ -13,6 +13,7 @@ current capabilities of the API and provide sufficient error handling.
 ### Built With
 
 - [Python 3.7.x](https://www.python.org/downloads/release/python-375/)
+- [Bokeh](https://docs.bokeh.org/en/latest/index.html)
 - [TfL Unified API](https://api.tfl.gov.uk/)
 
 <!-- GETTING STARTED -->
